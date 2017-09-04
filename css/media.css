@@ -1,0 +1,101 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Extra small devices (mobile, 480px and up) */
+@media (max-width: 480px) {
+    .logo {border-right: none;}
+}
+/* Mobile devices */
+@media (max-width: 767px) { 
+    #slider .carousel-control.left {left: 5px;}
+    #slider .carousel-control.right {right: 5px;}
+    .footer-logo {margin-top: 25px;}
+    .slider-item img {display: inline-block;margin-bottom: 25px;}
+    .slider-item {text-align: center;padding: 0 10%;}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 480px) and (max-width: 767px) {
+    
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) { 
+    #slider .carousel-control.left {left: 5px;}
+    #slider .carousel-control.right {right: 5px;}
+}
+
+@media (max-width: 992px) { 
+     
+}
+
+@media (min-width: 992px) and (max-width: 1200px) { 
+    #slider .carousel-control.left {left: 5px;}
+    #slider .carousel-control.right {right: 5px;}
+}
+
+
+/* columns of same height styles */
+.container-xs-height {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+}
+.row-xs-height {
+    display:table-row;
+}
+.col-xs-height {
+    display:table-cell;
+    float:none;
+}
+@media (min-width: 768px) {
+    .container-sm-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-sm-height {
+        display:table-row;
+    }
+    .col-sm-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 992px) {
+    .container-md-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-md-height {
+        display:table-row;
+    }
+    .col-md-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 1200px) {
+    .container-lg-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-lg-height {
+        display:table-row;
+    }
+    .col-lg-height {
+        display:table-cell;
+        float:none;
+    }
+}
+/* vertical alignment styles */
+.col-top {
+    vertical-align:top;
+}
+.col-middle {
+    vertical-align:middle;
+}
+.col-bottom {
+    vertical-align:bottom;
+}
